@@ -75,8 +75,6 @@ ctx.lineTo(800, 420)
 ctx.lineWidth = 2.5
 ctx.stroke()
 
-
-
 //arc / Circle 
 
 ctx.beginPath()
