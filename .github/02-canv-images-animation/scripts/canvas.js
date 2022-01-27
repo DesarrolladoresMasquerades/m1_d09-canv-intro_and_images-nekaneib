@@ -38,11 +38,11 @@ canvas.addEventListener(
     (event)=>{
         console.log("mouse coordinates: ", event.clientX, event.clientY)
         ctx.clearRect(0,0, canvas.width, canvas.height)
-        //ctx.beginPath();
-        //ctx.moveTo(0,0);
-        ctx.lineTo(event.clientX, event.clientY );
+        ctx.beginPath();
+        ctx.moveTo(0,0);
+        ctx.lineTo(event.clientX, event.clientY);
         ctx.stroke();
-        //ctx.closePath()
+        ctx.closePath()
     }
 )
  
